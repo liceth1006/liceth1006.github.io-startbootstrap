@@ -4,100 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>startbootstrap</title>
     <style>
         @font-face {
   font-family: titulo;
   src: url(Metropolis-SemiBold.otf);
 }
-        *{
-           padding: 0px;
-           margin: 0px; 
-        }
     </style>
-    <style>@media (prefers-reduced-motion: reduce) {
-        .nav-link {
-          transition: none;
-          </style>
 </head>
 <body>
-
-    <nav style="background-color: #2C3E50;height: 104px;; padding-top: 50px; padding-left: 100px;padding-right: 100px;  display: block; color: #1abc9c; text-decoration: none; transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;cursor: default;">
-        <button  style="font-family:titulo ;background-color: transparent ; font-size: 30px; color: white;transform: translateX(250px); border: 0px ;">START BOOTSTRAP</button>
-        <button style="font-family:titulo ;background-color:transparent; color: white; font-size: 18px;transform: translateX(800px); border: 0px;">PORTFOLIO</button>
-        <button style="font-family:titulo ;background-color:transparent; color: white; font-size: 18px;transform: translateX(850px); border: 0px;">ABOUT</button>
-        <button style="font-family:titulo ;background-color:transparent; color: white; font-size: 18px;transform: translateX(900px); border: 0px;">CONTACT</button>
-    </nav>
-
-    <section style="background-color: #1ABC9C;height: 678px;">
-        <center> <img style="transform: translateY(120px);"src="./avataaars.svg" alt="" height="240" width="254.53"> </center>
-        <h1 style="font-family:titulo ; color:white; font-size: 65px; text-align: center;transform: translateY(150px);">START BOOTSTRAP</h1>
-        <h3 style="font-family:titulo ; color:white; font-size: 27px; text-align: center;transform: translateY(250px);">Graphic Artist - Web Designer - Illustrator</h3>
-    </section>
-
-
-    <section style="background-color: #ffffff;height: 1338px; width: 886.22;">
-        <center><h1 style ="font-family:titulo ; color: #2C3E50; font-size: 52px; padding-top: 80px; padding-bottom: 83px;">PORTFOLIO</h1></center>
-        <div>
-            <div style= " overflow: hidden;cursor: pointer;">
-                <center>
-                    <img style="border-radius: 10px; margin: 10px;"src="cabin.png" alt="" height="257.11px" width="356px">
-                    <img style="border-radius: 10px; margin: 10px"src="cake.png" alt=""height="257.11px" width="356px">
-                    <img style="border-radius: 10px; margin: 10px"src="circus.png" alt=""height="257.11px" width="356px">
-                </center>
-            </div>
-            <div style="padding-bottom:100px ; padding-top: 25px;overflow: hidden;cursor: pointer;">
-                <center>
-                    <img style="border-radius: 10px; margin: 10px"src="game.png" alt=""height="257.11px" width="356px">
-                    <img style="border-radius: 10px; margin: 10px"src="safe.png" alt=""height="257.11px" width="356px">
-                    <img style="border-radius: 10px; margin: 10px"src="submarine.png" alt=""height="257.11px" width="356px">
-                </center>
-            </div>
+    <nav   class="navegador">
+        <div class="inicioboton">
+        <button class="start">START BOOTSTRAP</button>
+        <button class="butt1">PORTFOLIO    </button>
+        <button class="butt2">ABOUT   </button>
+        <button class="butt3">CONTACT   </button>
         </div>
-    <section style="background-color: #1ABC9C;height: 610px;">
-        <h1 style="text-align:center; font-family:titulo ; color:white; font-size: 55px; transform: translateY(100px);">ABOUT</h1>
-        <p style="font-family:titulo ; color:white; font-size: 23px;position:absolute ; left: 570px; width: 380px; height: 196;transform: translateY(165px);">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-        <p style="font-family:titulo ; color:white; font-size: 23px;position:absolute ; left: 970px; width: 380px; height: 196;transform: translateY(165px)">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
-        <center><button style="transform: translateY(400px); border:1px solid white; background-color: transparent; padding: 20px; font-size: 16px; color: white">Free Download!</button></center>
+    </nav>
+    <center><section class="seccion1">
+        <img class="logo" src="./avataaars.svg" alt="logo">
+        <h1>START BOOTSTRAP</h1>
+        <h3 class="artist">Graphic Artist - Web Designer - Illustrator</h3> 
     </section>
-
-    <center> <section style="background-color: #ffffff;height: 878px;">
-        <h1 style="text-align:center; font-family:titulo ; color: #2C3E50; font-size: 55px; transform: translateY(100px);">CONTACT ME</h1>
-    
-    <center> 
-    <div display: grid;grid-template-rows: repeat(4, 0.5fr);row-gap: 20px;>   
-    <form action="contacto">
-        <label  for="">Full name</label>
-            <input  type="text" name="Nombres" height: 40px;width: 100%;border: none;border-bottom: 1px solid #b3b1b1;outline: 0;transition: border-color 0.2s;font-size: 20px;"> 
-            <label style="transform: translateY(100px); " for="">Email Adress</label>
-            <input class="controls" type="email" name="correo" style="height: 11px">
-            <label for="">phone number</label>
-            <input class="controls" type="text" name="Numero" style="height: 11px"> 
-            <label for="">Message</label>
-            <input class="controls" type="text" name="Mensaje" style="height: 80px">
-            <a href="#"><button style="padding:12px; background-color: #1ABC9C; color: #ffffff; border-radius: 8px;
-                height: 62px;width: 100px;font-size: 20px;border: none;" type="submit" id="botones">Enviar</button></a>
-    </form>  
-    </div> 
+    </center>
+    <section class="seccion2">
+        <center>
+        <h2 class="port">PORTFOLIO</h2>
+        <div id="imgp" >
+        <img src="cabin.png" alt="cabin">
+        <img src="cake.png" alt="cake">
+        <img src="circus.png" alt="circus">
+        <img src="game.png" alt="game">
+        <img src="safe.png" alt="safe">
+        <img src="submarine.png" alt="submarine">
+        </div>
+        </center>
     </section>
-   
-
-    <footer style="background-color: #2C3E50;height: 302.8px;">
-    <br>
-        <table style="color:white;text-align: center;table-layout: fixed;width: 100%;font-family:titulo ;transform: translateY(95px) ;">
-            <tr style="width: 10px;">
-                <td>LOCATION</td>
-                <td>AROUND THE WEB</td>
-                <td>ABOUT FREELANCER</td>
-           </tr> 
-           <tr>
-            <td>2215 John Daniel Drive
-                Clark, MO 65243</td>
-            <td>img</td>
-            <td>Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap .</td>
-           </tr>   
-    </table>
-    <p style="color:white;text-align: center;transform: translateY(208px) ;background-color: black;"> Copyright © Your Website 2022</p>
+    <section class="seccion3">
+        <h2 class="about">ABOUT</h2>
+        <p class="p1">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+        <p class="p2">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+    </section>
+    <section class="seccion4">
+        <h2 class="contact">CONTACT ME</h2>
+        <center><form class="formulario">
+            <div id="form">
+            <label class="name" for="">Full name</label><br>
+            <input  type="text" ><br>
+            <label class="email" for="">Email address</label> <br>
+            <input type="email"> <br>
+            <label class="number" for="">Phone number</label><br>
+            <input type="id"><br>
+            <label class="message"  for="">Message</label><br>
+            <input type="text"><br>
+            </div> 
+            <button class="butt4">send</button>
+             
+        </form>
+        </center>
+    </section>
+    <footer class="fin">
+        <h2 class="location">LOCATION</h2>
+        <h3 class="drive">2215 John Daniel Drive</h3>
+        <h3 class="clark">Clark, MO 65243</h3>
+        <h2 class="around">AROUND THE WEB</h2>
+        <h2 class="ab">ABOUT FREELANCER</h2>
+        <p class="free">Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap .</p>
     </footer>
+    <footer class="footer">
+        <h6>Copyright © Your Website 2022</h6>
+    </footer>
+    
+    
+
 </body>
-</html>
